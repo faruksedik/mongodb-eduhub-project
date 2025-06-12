@@ -60,59 +60,93 @@ This project, "EduHub," is a MongoDB-based database backend for an online e-lear
 
 ### Collections
 
-- **users**: Stores student and instructor profiles.
-  - `_id` (string): Unique user ID.
-  - `email` (string): Unique email address.
-  - `firstName` (string): User's first name.
-  - `lastName` (string): User's last name.
-  - `role` (string): Enum \['student', 'instructor'\].
-  - `dateJoined` (date): Registration date.
-  - `profile` (object): Bio, avatar, and skills.
-  - `isActive` (boolean): User status.
-- **courses**: Stores course details.
-  - `_id` (string): Unique course ID.
-  - `title` (string): Course title.
-  - `instructorId` (string): References `users._id`.
-  - `category` (string): Course category.
-  - `level` (string): Enum \['beginner', 'intermediate', 'advanced'\].
-  - `duration` (number): Duration in hours.
-  - `price` (number): Course price.
-  - `tags` (array): Course tags.
-  - `createdAt` (date): Creation date.
-  - `updatedAt` (date): Last update date.
-  - `isPublished` (boolean): Publication status.
-- **enrollments**: Tracks student enrollments.
-  - `_id` (string): Unique enrollment ID.
-  - `studentId` (string): References `users._id`.
-  - `courseId` (string): References `courses._id`.
-  - `enrollmentDate` (date): Enrollment date.
-  - `completionStatus` (number): Progress (0-100).
-  - `lastAccessed` (date): Last access date.
-- **lessons**: Stores course lessons.
-  - `_id` (string): Unique lesson ID.
-  - `courseId` (string): References `courses._id`.
-  - `title` (string): Lesson title.
-  - `content` (string): Lesson content.
-  - `sequence` (number): Lesson order.
-  - `duration` (number): Duration in minutes.
-  - `resources` (array): Resource URLs.
-- **assignments**: Stores course assignments.
-  - `_id` (string): Unique assignment ID.
-  - `courseId` (string): References `courses._id`.
-  - `title` (string): Assignment title.
-  - `description` (string): Assignment description.
-  - `dueDate` (date): Submission deadline.
-  - `maxPoints` (number): Maximum points.
-  - `instructions` (string): Assignment instructions.
-- **submissions**: Tracks assignment submissions.
-  - `_id` (string): Unique submission ID.
-  - `assignmentId` (string): References `assignments._id`.
-  - `studentId` (string): References `users._id`.
-  - `submittedDate` (date): Submission date.
-  - `content` (string): Submission content.
-  - `grade` (number): Assigned grade (0-100).
-  - `feedback` (string): Instructor feedback.
-  - `isGraded` (boolean): Grading status.
+`users` **Collection**
+
+Represents all user accounts (students, instructors, admins).
+
+
+| Field        | Type    | Description                         |
+| ------------ | ------- | ----------------------------------- |
+| `userId`     | String  | Unique user identifier              |
+| `email`      | String  | User's email address (indexed)      |
+| `firstName`  | String  | First name                          |
+| `lastName`   | String  | Last name                           |
+| `role`       | String  | One of: `"student"`, `"instructor"` |
+| `dateJoined` | Date    | When the user joined                |
+| `isActive`   | Boolean | Active status (soft deletes)        |
+| `profile`    | Object  | User bio and skillset               |
+
+`courses`  **Collection**
+
+Stores all available courses on EduHub.
+
+| Field          | Type    | Description                          |
+| -------------- | ------- | ------------------------------------ |
+| `courseId`     | String  | Unique identifier                    |
+| `title`        | String  | Course name                          |
+| `description`  | String  | Overview of course content           |
+| `category`     | String  | Course category (e.g., "Data", etc.) |
+| `instructorId` | String  | Linked user (instructor)             |
+| `createdAt`    | Date    | Course creation timestamp            |
+| `updatedAt`    | Date    | Last updated timestamp               |
+| `tags`         | Array   | Keywords for search                  |
+| `price`        | Number  | Price of the course in USD           |
+| `isPublished`  | Boolean | Whether it's publicly available      |
+
+
+`enrollments` **Collection**
+
+Tracks which students are enrolled in which courses.
+
+| Field            | Type   | Description                   |
+| ---------------- | ------ | ----------------------------- |
+| `enrollmentId`   | String | Unique enrollment ID          |
+| `studentId`      | String | Refers to `users.userId`      |
+| `courseId`       | String | Refers to `courses.courseId`  |
+| `enrollmentDate` | Date   | When the enrollment occurred  |
+| `lastAccessed`   | Date   | Last time course was accessed |
+| `progress`       | Number | Completion %                  |
+
+
+`lessons` **Collection**
+
+Defines course lessons and their content.
+
+| Field      | Type   | Description                     |
+| ---------- | ------ | ------------------------------- |
+| `lessonId` | String | Unique identifier               |
+| `courseId` | String | Linked course                   |
+| `title`    | String | Lesson title                    |
+| `content`  | String | HTML or Markdown-formatted body |
+| `duration` | Number | Length in minutes               |
+
+
+`assignments` **Collection**
+
+Assignments tied to specific lessons or courses.
+
+| Field          | Type   | Description                |
+| -------------- | ------ | -------------------------- |
+| `assignmentId` | String | Unique assignment ID       |
+| `courseId`     | String | Linked course              |
+| `title`        | String | Assignment title           |
+| `instructions` | String | Detailed assignment prompt |
+| `dueDate`      | Date   | Deadline                   |
+
+
+`submissions` **Collection**
+
+Stores student submissions for assignments.
+
+| Field           | Type    | Description                          |
+| --------------- | ------- | ------------------------------------ |
+| `submissionId`  | String  | Unique ID                            |
+| `assignmentId`  | String  | Refers to `assignments.assignmentId` |
+| `studentId`     | String  | Refers to `users.userId`             |
+| `submittedDate` | Date    | When the student submitted           |
+| `grade`         | Number  | Score given                          |
+| `isGraded`      | Boolean | Whether the submission is graded     |
+
 
 ### Relationships
 

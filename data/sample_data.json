@@ -1,0 +1,989 @@
+{
+  "users": [
+    {
+      "userId": "user001",
+      "email": "adebola.adesanya@gmail.com",
+      "firstName": "Adebola",
+      "lastName": "Adesanya",
+      "role": "student",
+      "dateJoined": "2024-01-15T00:00:00Z",
+      "profile": {
+        "bio": "Computer science student at University of Lagos",
+        "skills": ["Python", "Java"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user002",
+      "email": "chinwe.okonkwo@yahoo.com",
+      "firstName": "Chinwe",
+      "lastName": "Okonkwo",
+      "role": "instructor",
+      "dateJoined": "2023-11-20T00:00:00Z",
+      "profile": {
+        "bio": "Senior software engineer with 10 years experience",
+        "skills": ["Python", "MongoDB", "Django"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user003",
+      "email": "emeka.eze@gmail.com",
+      "firstName": "Emeka",
+      "lastName": "Eze",
+      "role": "student",
+      "dateJoined": "2024-02-10T00:00:00Z",
+      "profile": {
+        "bio": "Aspiring data scientist",
+        "skills": ["SQL", "R"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user004",
+      "email": "folake.adeleke@yahoo.com",
+      "firstName": "Folake",
+      "lastName": "Adeleke",
+      "role": "instructor",
+      "dateJoined": "2023-09-05T00:00:00Z",
+      "profile": {
+        "bio": "Cloud computing specialist",
+        "skills": ["AWS", "Azure", "DevOps"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user005",
+      "email": "gbenga.oladele@gmail.com",
+      "firstName": "Gbenga",
+      "lastName": "Oladele",
+      "role": "student",
+      "dateJoined": "2024-03-22T00:00:00Z",
+      "profile": {
+        "bio": "Frontend developer enthusiast",
+        "skills": ["JavaScript", "React"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user006",
+      "email": "halima.yusuf@yahoo.com",
+      "firstName": "Halima",
+      "lastName": "Yusuf",
+      "role": "instructor",
+      "dateJoined": "2023-07-18T00:00:00Z",
+      "profile": {
+        "bio": "Cybersecurity expert",
+        "skills": ["Ethical Hacking", "Network Security"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user007",
+      "email": "ikechukwu.nwachukwu@gmail.com",
+      "firstName": "Ikechukwu",
+      "lastName": "Nwachukwu",
+      "role": "student",
+      "dateJoined": "2024-01-30T00:00:00Z",
+      "profile": {
+        "bio": "Mobile app developer",
+        "skills": ["Flutter", "Dart"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user008",
+      "email": "jumoke.adebayo@yahoo.com",
+      "firstName": "Jumoke",
+      "lastName": "Adebayo",
+      "role": "student",
+      "dateJoined": "2024-04-05T00:00:00Z",
+      "profile": {
+        "bio": "UI/UX design student",
+        "skills": ["Figma", "Adobe XD"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user009",
+      "email": "kabiru.mohammed@gmail.com",
+      "firstName": "Kabiru",
+      "lastName": "Mohammed",
+      "role": "instructor",
+      "dateJoined": "2023-10-12T00:00:00Z",
+      "profile": {
+        "bio": "Database administrator",
+        "skills": ["SQL", "NoSQL", "ETL"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user010",
+      "email": "lola.ogunlesi@yahoo.com",
+      "firstName": "Lola",
+      "lastName": "Ogunlesi",
+      "role": "student",
+      "dateJoined": "2024-02-28T00:00:00Z",
+      "profile": {
+        "bio": "Aspiring full-stack developer",
+        "skills": ["JavaScript", "Node.js"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user011",
+      "email": "musa.ibrahim@gmail.com",
+      "firstName": "Musa",
+      "lastName": "Ibrahim",
+      "role": "student",
+      "dateJoined": "2024-03-15T00:00:00Z",
+      "profile": {
+        "bio": "Computer engineering student",
+        "skills": ["C++", "Embedded Systems"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user012",
+      "email": "nneka.onyemaobi@yahoo.com",
+      "firstName": "Nneka",
+      "lastName": "Onyemaobi",
+      "role": "instructor",
+      "dateJoined": "2023-08-22T00:00:00Z",
+      "profile": {
+        "bio": "Machine learning specialist",
+        "skills": ["Python", "TensorFlow", "PyTorch"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user013",
+      "email": "obinna.okafor@gmail.com",
+      "firstName": "Obinna",
+      "lastName": "Okafor",
+      "role": "student",
+      "dateJoined": "2024-01-18T00:00:00Z",
+      "profile": {
+        "bio": "Data analysis enthusiast",
+        "skills": ["Excel", "Power BI"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user014",
+      "email": "patience.udo@yahoo.com",
+      "firstName": "Patience",
+      "lastName": "Udo",
+      "role": "student",
+      "dateJoined": "2024-04-10T00:00:00Z",
+      "profile": {
+        "bio": "Learning web development",
+        "skills": ["HTML", "CSS"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user015",
+      "email": "quadri.bello@gmail.com",
+      "firstName": "Quadri",
+      "lastName": "Bello",
+      "role": "instructor",
+      "dateJoined": "2023-12-05T00:00:00Z",
+      "profile": {
+        "bio": "Blockchain developer",
+        "skills": ["Solidity", "Ethereum"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user016",
+      "email": "rahman.yusuf@yahoo.com",
+      "firstName": "Rahman",
+      "lastName": "Yusuf",
+      "role": "student",
+      "dateJoined": "2024-03-01T00:00:00Z",
+      "profile": {
+        "bio": "Game development student",
+        "skills": ["Unity", "C#"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user017",
+      "email": "sade.ogunlana@gmail.com",
+      "firstName": "Sade",
+      "lastName": "Ogunlana",
+      "role": "student",
+      "dateJoined": "2024-02-14T00:00:00Z",
+      "profile": {
+        "bio": "Digital marketing student",
+        "skills": ["SEO", "Content Marketing"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user018",
+      "email": "tunde.adeleke@yahoo.com",
+      "firstName": "Tunde",
+      "lastName": "Adeleke",
+      "role": "instructor",
+      "dateJoined": "2023-06-30T00:00:00Z",
+      "profile": {
+        "bio": "IT project manager",
+        "skills": ["Agile", "Scrum"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user019",
+      "email": "uche.mbah@gmail.com",
+      "firstName": "Uche",
+      "lastName": "Mbah",
+      "role": "student",
+      "dateJoined": "2024-01-25T00:00:00Z",
+      "profile": {
+        "bio": "Computer science student",
+        "skills": ["Java", "Algorithms"]
+      },
+      "isActive": true
+    },
+    {
+      "userId": "user020",
+      "email": "victoria.olumide@yahoo.com",
+      "firstName": "Victoria",
+      "lastName": "Olumide",
+      "role": "student",
+      "dateJoined": "2024-04-18T00:00:00Z",
+      "profile": {
+        "bio": "Learning data structures",
+        "skills": ["Python", "Problem Solving"]
+      },
+      "isActive": true
+    }
+  ],
+  "courses": [
+    {
+      "courseId": "course001",
+      "title": "Introduction to Python Programming",
+      "description": "Learn Python programming from scratch with practical examples",
+      "instructorId": "user002",
+      "category": "Programming",
+      "level": "beginner",
+      "duration": 20,
+      "price": 99.99,
+      "tags": ["python", "programming", "beginner"],
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-01-10T00:00:00Z",
+      "isPublished": true
+    },
+    {
+      "courseId": "course002",
+      "title": "Web Development with Django",
+      "description": "Build web applications using Django framework",
+      "instructorId": "user002",
+      "category": "Web Development",
+      "level": "intermediate",
+      "duration": 30,
+      "price": 149.99,
+      "tags": ["django", "python", "web"],
+      "createdAt": "2024-02-15T00:00:00Z",
+      "updatedAt": "2024-02-20T00:00:00Z",
+      "isPublished": true
+    },
+    {
+      "courseId": "course003",
+      "title": "AWS Cloud Practitioner",
+      "description": "Learn AWS cloud fundamentals and services",
+      "instructorId": "user004",
+      "category": "Cloud Computing",
+      "level": "beginner",
+      "duration": 25,
+      "price": 199.99,
+      "tags": ["aws", "cloud", "devops"],
+      "createdAt": "2023-11-10T00:00:00Z",
+      "updatedAt": "2023-11-25T00:00:00Z",
+      "isPublished": true
+    },
+    {
+      "courseId": "course004",
+      "title": "Cybersecurity Fundamentals",
+      "description": "Introduction to cybersecurity concepts and practices",
+      "instructorId": "user006",
+      "category": "Security",
+      "level": "beginner",
+      "duration": 15,
+      "price": 129.99,
+      "tags": ["security", "ethical hacking", "networking"],
+      "createdAt": "2024-01-20T00:00:00Z",
+      "updatedAt": "2024-01-30T00:00:00Z",
+      "isPublished": true
+    },
+    {
+      "courseId": "course005",
+      "title": "Machine Learning with Python",
+      "description": "Practical machine learning using Python and scikit-learn",
+      "instructorId": "user012",
+      "category": "Data Science",
+      "level": "intermediate",
+      "duration": 40,
+      "price": 249.99,
+      "tags": ["machine learning", "python", "ai"],
+      "createdAt": "2023-12-05T00:00:00Z",
+      "updatedAt": "2023-12-20T00:00:00Z",
+      "isPublished": true
+    },
+    {
+      "courseId": "course006",
+      "title": "Mobile App Development with Flutter",
+      "description": "Build cross-platform mobile apps with Flutter framework",
+      "instructorId": "user009",
+      "category": "Mobile Development",
+      "level": "intermediate",
+      "duration": 35,
+      "price": 179.99,
+      "tags": ["flutter", "dart", "mobile"],
+      "createdAt": "2024-03-01T00:00:00Z",
+      "updatedAt": "2024-03-10T00:00:00Z",
+      "isPublished": true
+    },
+    {
+      "courseId": "course007",
+      "title": "Blockchain Development Basics",
+      "description": "Introduction to blockchain and smart contract development",
+      "instructorId": "user015",
+      "category": "Blockchain",
+      "level": "advanced",
+      "duration": 45,
+      "price": 299.99,
+      "tags": ["blockchain", "solidity", "ethereum"],
+      "createdAt": "2024-02-10T00:00:00Z",
+      "updatedAt": "2024-02-25T00:00:00Z",
+      "isPublished": true
+    },
+    {
+      "courseId": "course008",
+      "title": "Database Design with MongoDB",
+      "description": "Learn NoSQL database design using MongoDB",
+      "instructorId": "user009",
+      "category": "Database",
+      "level": "intermediate",
+      "duration": 25,
+      "price": 159.99,
+      "tags": ["mongodb", "nosql", "database"],
+      "createdAt": "2024-03-15T00:00:00Z",
+      "updatedAt": "2024-03-20T00:00:00Z",
+      "isPublished": true
+    }
+  ],
+  "enrollments": [
+    {
+      "enrollmentId": "enroll001",
+      "studentId": "user001",
+      "courseId": "course001",
+      "enrollmentDate": "2024-02-01T00:00:00Z",
+      "completionStatus": 25,
+      "lastAccessed": "2024-06-01T00:00:00Z"
+    },
+    {
+      "enrollmentId": "enroll002",
+      "studentId": "user003",
+      "courseId": "course001",
+      "enrollmentDate": "2024-02-15T00:00:00Z",
+      "completionStatus": 40,
+      "lastAccessed": "2024-06-05T00:00:00Z"
+    },
+    {
+      "enrollmentId": "enroll003",
+      "studentId": "user005",
+      "courseId": "course002",
+      "enrollmentDate": "2024-03-01T00:00:00Z",
+      "completionStatus": 15,
+      "lastAccessed": "2024-06-02T00:00:00Z"
+    },
+    {
+      "enrollmentId": "enroll004",
+      "studentId": "user007",
+      "courseId": "course003",
+      "enrollmentDate": "2024-01-25T00:00:00Z",
+      "completionStatus": 75,
+      "lastAccessed": "2024-06-10T00:00:00Z"
+    },
+    {
+      "enrollmentId": "enroll005",
+      "studentId": "user008",
+      "courseId": "course004",
+      "enrollmentDate": "2024-04-10T00:00:00Z",
+      "completionStatus": 10,
+      "lastAccessed": "2024-06-03T00:00:00Z"
+    },
+    {
+      "enrollmentId": "enroll006",
+      "studentId": "user010",
+      "courseId": "course005",
+      "enrollmentDate": "2024-03-05T00:00:00Z",
+      "completionStatus": 30,
+      "lastAccessed": "2024-06-08T00:00:00Z"
+    },
+    {
+      "enrollmentId": "enroll007",
+      "studentId": "user011",
+      "courseId": "course006",
+      "enrollmentDate": "2024-03-20T00:00:00Z",
+      "completionStatus": 50,
+      "lastAccessed": "2024-06-09T00:00:00Z"
+    },
+    {
+      "enrollmentId": "enroll008",
+      "studentId": "user013",
+      "courseId": "course007",
+      "enrollmentDate": "2024-02-20T00:00:00Z",
+      "completionStatus": 20,
+      "lastAccessed": "2024-06-04T00:00:00Z"
+    },
+    {
+      "enrollmentId": "enroll009",
+      "studentId": "user014",
+      "courseId": "course008",
+      "enrollmentDate": "2024-04-15T00:00:00Z",
+      "completionStatus": 5,
+      "lastAccessed": "2024-06-01T00:00:00Z"
+    },
+    {
+	  "enrollmentId": "enroll009",
+      "studentId": "user015",
+      "courseId": "course003",
+      "enrollmentDate": "2024-01-15T00:00:00Z",
+      "completionStatus": 75,
+      "lastAccessed": "2024-06-08T00:00:00Z"
+    },
+	{
+    "enrollmentId": "enroll010",
+    "studentId": "user018",
+    "courseId": "course001",
+    "enrollmentDate": "2024-03-10T00:00:00Z",
+    "completionStatus": 20,
+    "lastAccessed": "2024-06-07T00:00:00Z"
+  },
+  {
+    "enrollmentId": "enroll011",
+    "studentId": "user012",
+    "courseId": "course004",
+    "enrollmentDate": "2024-02-20T00:00:00Z",
+    "completionStatus": 100,
+    "lastAccessed": "2024-05-30T00:00:00Z"
+  },
+  {
+    "enrollmentId": "enroll012",
+    "studentId": "user020",
+    "courseId": "course002",
+    "enrollmentDate": "2024-01-05T00:00:00Z",
+    "completionStatus": 65,
+    "lastAccessed": "2024-06-05T00:00:00Z"
+  },
+  {
+    "enrollmentId": "enroll013",
+    "studentId": "user015",
+    "courseId": "course001",
+    "enrollmentDate": "2024-04-12T00:00:00Z",
+    "completionStatus": 30,
+    "lastAccessed": "2024-06-06T00:00:00Z"
+  },
+  {
+    "enrollmentId": "enroll014",
+    "studentId": "user022",
+    "courseId": "course003",
+    "enrollmentDate": "2024-03-25T00:00:00Z",
+    "completionStatus": 90,
+    "lastAccessed": "2024-06-08T00:00:00Z"
+  },
+  {
+    "enrollmentId": "enroll015",
+    "studentId": "user018",
+    "courseId": "course004",
+    "enrollmentDate": "2024-02-10T00:00:00Z",
+    "completionStatus": 5,
+    "lastAccessed": "2024-06-01T00:00:00Z"
+  },
+  {
+    "enrollmentId": "enroll016",
+    "studentId": "user025",
+    "courseId": "course002",
+    "enrollmentDate": "2024-01-30T00:00:00Z",
+    "completionStatus": 100,
+    "lastAccessed": "2024-05-15T00:00:00Z"
+  }
+],
+"lessons": [
+  {
+    "lessonId": "lesson001",
+    "courseId": "course001",
+    "title": "Python Basics",
+    "content": "Introduction to Python syntax, variables, and basic data types.",
+    "sequence": 1,
+    "duration": 60,
+    "resources": ["https://example.com/python-basics"]
+  },
+  {
+    "lessonId": "lesson002",
+    "courseId": "course001",
+    "title": "Python Functions",
+    "content": "Creating and using functions, parameters, and return values.",
+    "sequence": 2,
+    "duration": 75,
+    "resources": ["https://example.com/python-functions"]
+  },
+  {
+    "lessonId": "lesson003",
+    "courseId": "course002",
+    "title": "JavaScript Fundamentals",
+    "content": "Introduction to JavaScript syntax and DOM manipulation.",
+    "sequence": 1,
+    "duration": 65,
+    "resources": ["https://example.com/js-basics"]
+  },
+  {
+    "lessonId": "lesson004",
+    "courseId": "course002",
+    "title": "Async JavaScript",
+    "content": "Working with callbacks, promises and async/await.",
+    "sequence": 2,
+    "duration": 80,
+    "resources": ["https://example.com/async-js"]
+  },
+  {
+    "lessonId": "lesson005",
+    "courseId": "course003",
+    "title": "HTML5 Structure",
+    "content": "Semantic HTML elements and document structure.",
+    "sequence": 1,
+    "duration": 50,
+    "resources": ["https://example.com/html5"]
+  },
+  {
+    "lessonId": "lesson006",
+    "courseId": "course003",
+    "title": "CSS Flexbox",
+    "content": "Modern layout techniques using Flexbox.",
+    "sequence": 2,
+    "duration": 70,
+    "resources": ["https://example.com/flexbox"]
+  },
+  {
+    "lessonId": "lesson007",
+    "courseId": "course004",
+    "title": "Database Fundamentals",
+    "content": "Relational vs NoSQL databases and basic concepts.",
+    "sequence": 1,
+    "duration": 60,
+    "resources": ["https://example.com/db-fundamentals"]
+  },
+  {
+    "lessonId": "lesson008",
+    "courseId": "course004",
+    "title": "SQL Basics",
+    "content": "SELECT, INSERT, UPDATE, DELETE operations.",
+    "sequence": 2,
+    "duration": 85,
+    "resources": ["https://example.com/sql-basics"]
+  },
+  {
+    "lessonId": "lesson009",
+    "courseId": "course005",
+    "title": "Git Version Control",
+    "content": "Basic Git commands and repository management.",
+    "sequence": 1,
+    "duration": 55,
+    "resources": ["https://example.com/git-basics"]
+  },
+  {
+    "lessonId": "lesson010",
+    "courseId": "course005",
+    "title": "GitHub Workflows",
+    "content": "Pull requests and collaborative workflows.",
+    "sequence": 2,
+    "duration": 75,
+    "resources": ["https://example.com/github-workflows"]
+  },
+  {
+    "lessonId": "lesson011",
+    "courseId": "course006",
+    "title": "Data Science Intro",
+    "content": "Overview of data science process and tools.",
+    "sequence": 1,
+    "duration": 70,
+    "resources": ["https://example.com/data-science-intro"]
+  },
+  {
+    "lessonId": "lesson012",
+    "courseId": "course006",
+    "title": "Pandas Basics",
+    "content": "Data manipulation with Python Pandas library.",
+    "sequence": 2,
+    "duration": 90,
+    "resources": ["https://example.com/pandas-basics"]
+  },
+  {
+    "lessonId": "lesson013",
+    "courseId": "course007",
+    "title": "Machine Learning Concepts",
+    "content": "Supervised vs unsupervised learning basics.",
+    "sequence": 1,
+    "duration": 80,
+    "resources": ["https://example.com/ml-concepts"]
+  },
+  {
+    "lessonId": "lesson014",
+    "courseId": "course007",
+    "title": "Linear Regression",
+    "content": "Implementing linear regression models.",
+    "sequence": 2,
+    "duration": 100,
+    "resources": ["https://example.com/linear-regression"]
+  },
+  {
+    "lessonId": "lesson015",
+    "courseId": "course008",
+    "title": "Cybersecurity Basics",
+    "content": "Fundamentals of information security.",
+    "sequence": 1,
+    "duration": 65,
+    "resources": ["https://example.com/cyber-basics"]
+  },
+  {
+    "lessonId": "lesson016",
+    "courseId": "course008",
+    "title": "Network Security",
+    "content": "Common network vulnerabilities and protections.",
+    "sequence": 2,
+    "duration": 85,
+    "resources": ["https://example.com/network-security"]
+  },
+  {
+    "lessonId": "lesson017",
+    "courseId": "course001",
+    "title": "Python OOP",
+    "content": "Object-oriented programming in Python.",
+    "sequence": 3,
+    "duration": 90,
+    "resources": ["https://example.com/python-oop"]
+  },
+  {
+    "lessonId": "lesson018",
+    "courseId": "course002",
+    "title": "React Basics",
+    "content": "Introduction to React framework.",
+    "sequence": 3,
+    "duration": 95,
+    "resources": ["https://example.com/react-basics"]
+  },
+  {
+    "lessonId": "lesson019",
+    "courseId": "course003",
+    "title": "CSS Grid",
+    "content": "Advanced layout with CSS Grid.",
+    "sequence": 3,
+    "duration": 75,
+    "resources": ["https://example.com/css-grid"]
+  },
+  {
+    "lessonId": "lesson020",
+    "courseId": "course004",
+    "title": "MongoDB",
+    "content": "NoSQL database with MongoDB.",
+    "sequence": 3,
+    "duration": 80,
+    "resources": ["https://example.com/mongodb"]
+  },
+  {
+    "lessonId": "lesson021",
+    "courseId": "course005",
+    "title": "Docker Basics",
+    "content": "Containerization with Docker.",
+    "sequence": 3,
+    "duration": 85,
+    "resources": ["https://example.com/docker-basics"]
+  },
+  {
+    "lessonId": "lesson022",
+    "courseId": "course006",
+    "title": "Data Visualization",
+    "content": "Creating charts with Matplotlib.",
+    "sequence": 3,
+    "duration": 75,
+    "resources": ["https://example.com/data-viz"]
+  },
+  {
+    "lessonId": "lesson023",
+    "courseId": "course007",
+    "title": "Classification Models",
+    "content": "Implementing classification algorithms.",
+    "sequence": 3,
+    "duration": 110,
+    "resources": ["https://example.com/classification"]
+  },
+  {
+    "lessonId": "lesson024",
+    "courseId": "course008",
+    "title": "Ethical Hacking",
+    "content": "Penetration testing basics.",
+    "sequence": 3,
+    "duration": 90,
+    "resources": ["https://example.com/ethical-hacking"]
+  },
+  {
+    "lessonId": "lesson025",
+    "courseId": "course001",
+    "title": "Python Data Structures",
+    "content": "Lists, dictionaries, and other data structures.",
+    "sequence": 4,
+    "duration": 80,
+    "resources": ["https://example.com/python-data-structures"]
+  }
+],
+"assignments": [
+    {
+        "assignmentId": "assign002",
+        "courseId": "course001",
+        "title": "Control Flow Tasks",
+        "description": "Use if, else, and loops in Python.",
+        "dueDate": "2024-06-18T00:00:00Z",
+        "maxPoints": 100,
+        "instructions": "Solve all control flow tasks and upload your code."
+    },
+    {
+        "assignmentId": "assign003",
+        "courseId": "course001",
+        "title": "Python Functions Practice",
+        "description": "Implement and test various functions.",
+        "dueDate": "2024-06-20T00:00:00Z",
+        "maxPoints": 100,
+        "instructions": "Create at least five Python functions based on provided problems."
+    },
+    {
+        "assignmentId": "assign004",
+        "courseId": "course001",
+        "title": "Object-Oriented Python",
+        "description": "Practice defining and using classes.",
+        "dueDate": "2024-06-22T00:00:00Z",
+        "maxPoints": 100,
+        "instructions": "Design a simple class and demonstrate inheritance."
+    },
+    {
+        "assignmentId": "assign005",
+        "courseId": "course001",
+        "title": "Data Structures in Python",
+        "description": "Use lists, dictionaries, sets, and tuples.",
+        "dueDate": "2024-06-25T00:00:00Z",
+        "maxPoints": 100,
+        "instructions": "Solve all tasks related to data structures and submit."
+    },
+    {
+        "assignmentId": "assign006",
+        "courseId": "course002",
+        "title": "Build a Basic Django App",
+        "description": "Create a blog app with Django.",
+        "dueDate": "2024-06-20T00:00:00Z",
+        "maxPoints": 100,
+        "instructions": "Use Django to build a blog with post creation and listing."
+    },
+    {
+        "assignmentId": "assign007",
+        "courseId": "course002",
+        "title": "JavaScript DOM Tasks",
+        "description": "Interact with HTML using JavaScript.",
+        "dueDate": "2024-06-22T00:00:00Z",
+        "maxPoints": 100,
+        "instructions": "Manipulate the DOM with JS to create a simple form handler."
+    },
+    {
+        "assignmentId": "assign008",
+        "courseId": "course003",
+        "title": "HTML5 Layout Assignment",
+        "description": "Create a semantic layout using HTML5.",
+        "dueDate": "2024-06-23T00:00:00Z",
+        "maxPoints": 100,
+        "instructions": "Use semantic HTML tags to design a personal profile page."
+    },
+    {
+        "assignmentId": "assign009",
+        "courseId": "course004",
+        "title": "SQL Queries Challenge",
+        "description": "Write SQL to query sample database.",
+        "dueDate": "2024-06-27T00:00:00Z",
+        "maxPoints": 100,
+        "instructions": "Write SELECT, JOIN, and GROUP BY queries."
+    },
+    {
+        "assignmentId": "assign010",
+        "courseId": "course005",
+        "title": "Version Control with Git",
+        "description": "Use Git to manage project history.",
+        "dueDate": "2024-06-26T00:00:00Z",
+        "maxPoints": 100,
+        "instructions": "Create a Git repo and use branching and merging."
+    },
+    {
+        "assignmentId": "assign011",
+        "courseId": "course006",
+        "title": "Intro to Data Science",
+        "description": "Use pandas for data exploration.",
+        "dueDate": "2024-06-28T00:00:00Z",
+        "maxPoints": 100,
+        "instructions": "Analyze a dataset using Pandas and submit a Jupyter Notebook."
+    }
+],
+"submissions": [
+    {
+        "submissionId": "sub002",
+        "assignmentId": "assign002",
+        "studentId": "user001",
+        "submittedDate": "2024-06-16T00:00:00Z",
+        "content": "Completed control flow problems.",
+        "grade": 90,
+        "feedback": "Well structured control logic.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub003",
+        "assignmentId": "assign002",
+        "studentId": "user003",
+        "submittedDate": "2024-06-17T00:00:00Z",
+        "content": "Control statements implemented.",
+        "grade": 85,
+        "feedback": "Good job with loops, revisit edge cases.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub004",
+        "assignmentId": "assign003",
+        "studentId": "user005",
+        "submittedDate": "2024-06-18T00:00:00Z",
+        "content": "All functions created and tested.",
+        "grade": 95,
+        "feedback": "Excellent use of functions.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub005",
+        "assignmentId": "assign004",
+        "studentId": "user007",
+        "submittedDate": "2024-06-19T00:00:00Z",
+        "content": "OOP concepts well applied.",
+        "grade": 88,
+        "feedback": "Neat structure, minor issues in init methods.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub006",
+        "assignmentId": "assign005",
+        "studentId": "user008",
+        "submittedDate": "2024-06-21T00:00:00Z",
+        "content": "Used all major data structures.",
+        "grade": 92,
+        "feedback": "Very comprehensive work.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub007",
+        "assignmentId": "assign005",
+        "studentId": "user010",
+        "submittedDate": "2024-06-21T00:00:00Z",
+        "content": "Implemented dictionary tasks.",
+        "grade": 84,
+        "feedback": "Good work, optimize some loops.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub008",
+        "assignmentId": "assign006",
+        "studentId": "user011",
+        "submittedDate": "2024-06-20T00:00:00Z",
+        "content": "Blog app built with views and templates.",
+        "grade": 89,
+        "feedback": "Structure is clean. Good use of models.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub009",
+        "assignmentId": "assign007",
+        "studentId": "user013",
+        "submittedDate": "2024-06-22T00:00:00Z",
+        "content": "DOM manipulation is complete.",
+        "grade": 93,
+        "feedback": "Very interactive form.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub010",
+        "assignmentId": "assign008",
+        "studentId": "user014",
+        "submittedDate": "2024-06-23T00:00:00Z",
+        "content": "Semantic tags used properly.",
+        "grade": 88,
+        "feedback": "Layout is clean and accessible.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub011",
+        "assignmentId": "assign009",
+        "studentId": "user016",
+        "submittedDate": "2024-06-26T00:00:00Z",
+        "content": "SQL queries all passed test cases.",
+        "grade": 91,
+        "feedback": "Efficient joins. Nice job.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub012",
+        "assignmentId": "assign009",
+        "studentId": "user017",
+        "submittedDate": "2024-06-26T00:00:00Z",
+        "content": "All SQL operations completed.",
+        "grade": 87,
+        "feedback": "Avoid using SELECT *, be specific.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub013",
+        "assignmentId": "assign010",
+        "studentId": "user019",
+        "submittedDate": "2024-06-25T00:00:00Z",
+        "content": "Git repo initialized and feature branches merged.",
+        "grade": 90,
+        "feedback": "Nice commit history.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub014",
+        "assignmentId": "assign010",
+        "studentId": "user020",
+        "submittedDate": "2024-06-25T00:00:00Z",
+        "content": "Used Git for all versions.",
+        "grade": 86,
+        "feedback": "Use better commit messages.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub015",
+        "assignmentId": "assign011",
+        "studentId": "user001",
+        "submittedDate": "2024-06-28T00:00:00Z",
+        "content": "Explored dataset and visualized results.",
+        "grade": 94,
+        "feedback": "Well documented notebook.",
+        "isGraded": true
+    },
+    {
+        "submissionId": "sub016",
+        "assignmentId": "assign011",
+        "studentId": "user003",
+        "submittedDate": "2024-06-28T00:00:00Z",
+        "content": "Used Pandas for data cleaning.",
+        "grade": 89,
+        "feedback": "Try to add more visualizations next time.",
+        "isGraded": true
+    }
+]
+}
+
+

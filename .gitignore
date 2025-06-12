@@ -1,0 +1,35 @@
+# -------------------------
+# Sensitive Configuration
+# -------------------------
+config.json
+
+# -------------------------
+# Python Bytecode & Cache
+# -------------------------
+__pycache__/
+*.py[cod]
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+env/
+venv/
+ENV/
+
+# -------------------------
+# VS Code Settings
+# -------------------------
+.vscode/
+
+# -------------------------
+# OS-Specific Files (Windows/macOS)
+# -------------------------
+.DS_Store        # macOS Finder metadata
+Thumbs.db        # Windows image cache
+desktop.ini      # Windows folder config
+
+# -------------------------
+# Logs & Temporary Files
+# -------------------------
+*.log
+*.tmp

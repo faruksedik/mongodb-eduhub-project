@@ -161,56 +161,43 @@ Stores student submissions for assignments.
 - Use `src/eduhub_queries.py` as a reference for standalone Python scripts.
 - Modify `sample_data.json` to add or update data as needed.
 
-## Data Loading Utility – Code Explanation
+## 📥 Data Loader: `load_data_to_collections(file_path)`
 
-This section contains utility functions to load and insert data from the `sample_data.json` file into MongoDB. Here's what each part does:
+This function loads data from a JSON file into MongoDB collections while ensuring that all date fields are properly converted from string format to `datetime` objects.
 
----
 
-### `convert_date_strings_to_datetime(data, date_fields)`
+### ✅ Purpose
 
-- **Purpose:** Converts specified string date fields in a document to `datetime` objects.
-- **Used for:** Ensuring proper date format before MongoDB insertion (MongoDB requires actual date types, not strings).
+- Import data from a JSON source into MongoDB collections (`users`, `courses`, `enrollments`, `lessons`, `assignments`, `submissions`)
+- Automatically convert ISO 8601 date strings (e.g., `"2024-01-01T00:00:00Z"`) to Python `datetime` objects before insertion
+- Ensure data integrity and avoid schema validation errors
 
----
 
-### `load_json_to_dict(file_path)`
+### ⚙️ How It Works
 
-- **Purpose:** Loads and parses JSON data from a specified file path.
-- **Returns:** A Python dictionary containing the parsed JSON content.
-- **Error Handling:**
-  - Catches file not found and JSON decoding errors.
+1. **Load the JSON file** using Python’s `json` module.
+2. **Define date fields** that need conversion for each collection.
+3. **Iterate through each relevant collection**:
+   - Check if it exists in the JSON.
+   - Convert date fields to `datetime`.
+   - Insert documents into the corresponding MongoDB collection using `insert_many()`.
 
----
 
-### `convert_dates_in_collections(data)`
+### 🗂️ Collections Processed
 
-- **Purpose:** Iterates over collections (like `users`, `courses`, etc.) and converts their date fields using the helper above.
-- **Uses:** A predefined dictionary `date_fields` to map each collection to its date fields.
-
----
-
-### `load_data_into_mongodb(data)`
-
-- **Purpose:** Inserts all documents into their corresponding MongoDB collections using `insert_many`.
+- `users` → converts `dateJoined`
+- `courses` → converts `createdAt`, `updatedAt`
+- `enrollments` → converts `enrollmentDate`, `lastAccessed`
+- `assignments` → converts `dueDate`
+- `submissions` → converts `submittedDate`
+- `lessons` → loaded directly (no date conversion)
 
 ---
 
-### `load_json_to_mongodb_collections(file_path)`
-
-- **Purpose:** Orchestrates the full process:
-  1. Loads JSON from file.
-  2. Converts date strings to `datetime`.
-  3. Inserts data into MongoDB.
-- **Prints:** Success or failure messages for the overall operation.
-
----
-
-### Usage Example
+### 🧪 Example Usage
 
 ```python
-file_path = 'data/sample_data.json'
-load_json_to_mongodb_collections(file_path)
+load_data_to_collections('file_path')
 ```
 
 ## CRUD Operations Summary

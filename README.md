@@ -51,6 +51,7 @@ This project, "EduHub," is a MongoDB-based database backend for an online e-lear
 
    - Open `notebooks/eduhub_mongodb_project.ipynb` in Jupyter Notebook.
    - Execute all cells to set up the database and run queries.
+   - All the codes are written in the `eduhub_queries.py` file
 
 5. **Import Sample Data**
 
